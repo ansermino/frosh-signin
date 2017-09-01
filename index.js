@@ -24,6 +24,12 @@ var db = mongoose.connect(MONGODB);
 var Student = db.model('Student', studentSchema);
 var app = express();
 
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 app.listen(3000, function() {
     console.log("Listening on port 3000.")
 });
@@ -37,13 +43,18 @@ app.get('/:email', (req, res) => {
     console.log("Looking up email: " + req.email);
     Student.findOne({email: req.email}, (err, student) => {
         if(err){
-            console.log(err)
+            console.log(err);
+            res.status(404).send({name: null});
         }
         else if(!student){
-            res.sendStatus(404);
+            res.status(404).send({name: null});
         }
         else{
+            res.setHeader('Content-Type', 'application/json');
             res.send({student});
         }
     })
+    //res.setHeader('Content-Type', 'application/json');
+    //res.send({name:"David Ansermino", shirtSize:"m", teamName: "Java"})
+    //res.status(404).send({name: null});
 })
