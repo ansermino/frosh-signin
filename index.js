@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var express = require('express');
+var path = require('path');
 
 const MONGODB = 'mongodb://frosh:frosh@ds127564.mlab.com:27564/frosh';
 
@@ -34,6 +35,8 @@ app.param('email', (req, res, next, email) => {
     req.email = email
     next()
 });
+
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.get('/:email', (req, res) => {
     console.log("Looking up email: " + req.email);
