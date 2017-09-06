@@ -38,7 +38,7 @@ app.param('email', (req, res, next, email) => {
 
 app.use(express.static(path.join(__dirname, 'client/build')));
 
-app.get('/:email', (req, res) => {
+app.get('/search/:email', (req, res) => {
     console.log("Looking up email: " + req.email);
     /*Student.findOne({email: req.email}, (err, student) => {
         if(err){
