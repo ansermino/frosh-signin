@@ -58,3 +58,7 @@ app.get('/:email', (req, res) => {
     res.send({name:"David Ansermino", shirtSize:"m", teamName: "Java"})
     //res.status(404).send({name: null});
 })
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname+'/client/build/index.html'));
+});
