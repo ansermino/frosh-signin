@@ -41,7 +41,7 @@ app.param('email', (req, res, next, email) => {
 
 app.get('/:email', (req, res) => {
     console.log("Looking up email: " + req.email);
-    Student.findOne({email: req.email}, (err, student) => {
+    /*Student.findOne({email: req.email}, (err, student) => {
         if(err){
             console.log(err);
             res.status(404).send({name: null});
@@ -53,8 +53,8 @@ app.get('/:email', (req, res) => {
             res.setHeader('Content-Type', 'application/json');
             res.send({student});
         }
-    })
+    })*/
     //res.setHeader('Content-Type', 'application/json');
-    //res.send({name:"David Ansermino", shirtSize:"m", teamName: "Java"})
+    res.send({name:"David Ansermino", shirtSize:"m", teamName: "Java"})
     //res.status(404).send({name: null});
 })
