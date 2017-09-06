@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var express = require('express');
 
-const MONGODB = 'mongodb://localhost/csfrosh';
+const MONGODB = 'mongodb://frosh:frosh@ds127564.mlab.com:27564/frosh';
 
 // Logging methods
 mongoose.connection.on('connected', function() {
