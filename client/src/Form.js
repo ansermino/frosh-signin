@@ -23,7 +23,6 @@ class Form extends Component {
     this.setState({value: event.target.value});
   }
   handleSubmit(event) {
-      console.log('handleSubmit')
       event.preventDefault();
       getStudentData(this.state.value).then(
           (data) => this.props.stateCallback('results', JSON.parse(data.response), data.status),
@@ -58,9 +57,7 @@ class Form extends Component {
 }
 
 const getStudentData = (query) => new Promise((resolves, rejects) => {
-    console.log('getStudentData')
     const url = 'https://hidden-ravine-57932.herokuapp.com/search/' + query
-    console.log(url);
     const request = new XMLHttpRequest()
     request.open('GET', url)
     request.onload = () => resolves(request)

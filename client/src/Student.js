@@ -35,7 +35,6 @@ const studentInfoDivStyle = {
 
 class Student extends Component{
     render() {
-        console.log(this.props.shirtSize)
         return(
             <div style={rootDivStyle}>
               <MediaQuery minDeviceWidth={900}>

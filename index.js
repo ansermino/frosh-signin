@@ -18,7 +18,11 @@ mongoose.connection.on('disconnected', function() {
 });
 const studentSchema = new mongoose.Schema({
     name: {type: String},
-    email: {type: String}
+    email: {type: String},
+    groupName: {type: String},
+    groupNumber: {type: String},
+    shirtSize: {type: String, default: "TBD"},
+    checkedIn: {type: Boolean, default: false}
 })
 
 var db = mongoose.connect(MONGODB);
@@ -40,7 +44,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.get('/search/:email', (req, res) => {
     console.log("Looking up email: " + req.email);
-    /*Student.findOne({email: req.email}, (err, student) => {
+    Student.findOne({email: req.email}, (err, student) => {
         if(err){
             console.log(err);
             res.status(404).send({name: null});
@@ -49,12 +53,19 @@ app.get('/search/:email', (req, res) => {
             res.status(404).send({name: null});
         }
         else{
+          if(student.checkedIn){
+            res.status(401).send({name: null})
+          }
+          else{
+            student.checkedIn = true;
+            student.save((err) => console.log(err))
             res.setHeader('Content-Type', 'application/json');
             res.send({student});
+          }
         }
-    })*/
+    })
     //res.setHeader('Content-Type', 'application/json');
-    res.send({name:"David Ansermino", shirtSize:"m", teamName: "Java"})
+    //res.send({name:"David Ansermino", shirtSize:"m", teamName: "Java"})
     //res.status(404).send({name: null});
 })
 
