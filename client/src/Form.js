@@ -59,7 +59,7 @@ class Form extends Component {
 
 const getStudentData = (query) => new Promise((resolves, rejects) => {
     console.log('getStudentData')
-    const url = 'http://localhost:3000/' + query
+    const url = '//localhost:3000/' + query
     console.log(url);
     const request = new XMLHttpRequest()
     request.open('GET', url)
