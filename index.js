@@ -30,10 +30,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.listen(3000, function() {
-    console.log("Listening on port 3000.")
-});
-
 app.param('email', (req, res, next, email) => {
     req.email = email
     next()
@@ -62,3 +58,8 @@ app.get('/:email', (req, res) => {
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname+'/client/build/index.html'));
 });
+
+const port = process.env.PORT || 5000;
+app.listen(port);
+
+console.log(`Password generator listening on ${port}`);
