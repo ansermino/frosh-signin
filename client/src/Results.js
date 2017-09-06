@@ -1,9 +1,18 @@
 import React, {Component} from 'react';
 import Student from './Student'
-import Error from './Error'
+import RaisedButton from 'material-ui/RaisedButton'
 
 const successStyle = {
     color: "#42f456"
+}
+
+const failureStyle = {
+    color: "red",
+    fontSize: "40px"
+}
+
+const failureDivStyle = {
+  paddingBottom: "1rem"
 }
 
 class Results extends Component{
@@ -17,12 +26,24 @@ class Results extends Component{
     render() {
         if(this.props.status === 404){
             return (
-                <Error status={this.props.status} message="Uh oh! We couldn&#39;t find a match. Please try again or speak to a registration volunteer." />
+              <div style={failureDivStyle}>
+                  <h1 style={failureStyle}>404 - Not Found :(</h1>
+                  <h2>Uh oh! We couldn&#39;t find a match. Please try again or speak to a registration volunteer.</h2>
+                  <form onSubmit={this.handleReset}>
+                      <RaisedButton label="Reset" onClick={this.handleReset}/>
+                  </form>
+              </div>
             )
         }
         else if(this.props.status === 401){
           return (
-            <Error status={this.props.status} message="Sorry, according to our records you've already signed in :/" />
+            <div style={failureDivStyle}>
+                <h1 style={failureStyle}>401 - Already checked in</h1>
+                <h2>Sorry, according to our records you've already signed in :/</h2>
+                <form onSubmit={this.handleReset}>
+                    <RaisedButton label="Reset" onClick={this.handleReset}/>
+                </form>
+            </div>
           )
         }
         else{
