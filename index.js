@@ -44,7 +44,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.get('/search/:email', (req, res) => {
     console.log("Looking up email: " + req.email);
-    Student.findOne({email: req.email}, (err, student) => {
+    Student.findOne({email: req.email.toLowerCase()}, (err, student) => {
         if(err){
             console.log(err);
             res.status(404).send({name: null});

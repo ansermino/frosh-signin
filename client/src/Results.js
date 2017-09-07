@@ -59,4 +59,11 @@ class Results extends Component{
     }
 }
 
+Results.defaultProps = {
+  student : {
+    name: "ERROR",
+    shirtSize: "ERROR",
+    teamName: "ERROR"
+  }
+}
 export default Results;
