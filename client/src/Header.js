@@ -6,30 +6,13 @@ import MediaQuery from 'react-responsive'
 
 const divStyle = {
     backgroundColor: "#000",
-    height: "200px",
+    height: "auto",
     padding: "20px",
     color: "white",
 }
 
-const dcsLogoStyle = {
-    float: "left",
-    display: "inline",
-    width: "25%",
-    position: "relative",
-    top: "50%",
-    marginTop: "-73px"
-}
-
-const cssuLogoStyle = {
-    float: "right",
-    display: "inline",
-    height: "100%",
-    paddingRight: "1rem"
-}
-
 const hotDogStyle = {
-    height: "50%",
-    zScore: "0"
+    height: "6rem"
 }
 
 const titleStyle = {
@@ -52,13 +35,10 @@ class Header extends Component{
           <div>
             <MediaQuery minDeviceWidth={900}>
               <div style={divStyle}>
-                  <img style={dcsLogoStyle} src={utcsLogo} alt='Logo' />
-                  <img style={cssuLogoStyle} src={cssuLogo} alt='CSSU' />
                   <div style={titleDivStyle}>
                       <h2 style={titleStyle}>Welcome to CS Frosh 2017!</h2>
                       <br></br>
                       <img style={hotDogStyle} src={hotDog} alt='Hotdog' />
-
                   </div>
               </div>
             </MediaQuery>

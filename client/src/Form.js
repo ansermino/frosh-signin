@@ -38,7 +38,7 @@ class Form extends Component {
             <h2>Please enter the email you used when you signed up!</h2>
             <TextField style={textBoxDesktopStyle} floatingLabelText="Please enter the email you used when you signed up!" value={this.state.value} onChange={this.handleChange}/>
             <br></br>
-            <RaisedButton label="Submit" onClick={this.handleSubmit}/>
+            <RaisedButton className="bottomButton" label="Submit" onClick={this.handleSubmit}/>
           </form>
         </MediaQuery>
         <MediaQuery maxDeviceWidth={899}>
@@ -47,7 +47,7 @@ class Form extends Component {
             <h2>Please enter the email you used when you signed up!</h2>
             <TextField style={textBoxMobileStyle} floatingLabelText="Email used when you signed up" value={this.state.value} onChange={this.handleChange}/>
             <br></br>
-            <RaisedButton label="Submit" onClick={this.handleSubmit}/>
+            <RaisedButton className="bottomButton" label="Submit" onClick={this.handleSubmit}/>
           </form>
         </MediaQuery>
       </div>

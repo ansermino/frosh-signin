@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 const footerStyle = {
-    position: "absolute",
     right: "0",
     bottom: "0",
     left: "0",
@@ -10,12 +9,16 @@ const footerStyle = {
     color: "white"
 }
 
+const textStyle = {
+  paddingTop: "1rem"
+}
+
 
 class Footer extends Component{
     render() {
         return(
             <footer style={footerStyle}>
-            <p>Created with React and Material-UI.</p>
+            <p style={textStyle}>Created with React and Material-UI.</p>
             </footer>
         )
     }
