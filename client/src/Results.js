@@ -24,6 +24,7 @@ class Results extends Component{
         this.props.stateCallback('search', null);
     }
     render() {
+        console.log("Results:" + this.props.student["shirtSize"])
         if(this.props.status === 404){
             return (
               <div style={failureDivStyle}>
@@ -57,13 +58,5 @@ class Results extends Component{
             )
         }
     }
-}
-
-Results.defaultProps = {
-  student : {
-    name: "ERROR",
-    shirtSize: "ERROR",
-    teamName: "ERROR"
-  }
 }
 export default Results;

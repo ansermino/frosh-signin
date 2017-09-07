@@ -35,6 +35,7 @@ const studentInfoDivStyle = {
 
 class Student extends Component{
     render() {
+        console.log("Student:" + this.props.shirtSize)
         return(
             <div style={rootDivStyle}>
               <MediaQuery minDeviceWidth={900}>
@@ -59,6 +60,15 @@ class Student extends Component{
             </div>
         )
     }
+}
+
+Student.defaultProps = {
+  name: "ERROR",
+  email: "ERROR",
+  shirtSize: "ERROR",
+  teamName: "ERROR",
+  teamNumber: "ERROR",
+
 }
 
 export default Student;

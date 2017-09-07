@@ -12,7 +12,8 @@ class App extends Component {
         this.state = {display: 'search', student: null, status: 404}
     }
     changeStates(newState, data, newStatus) {
-        this.setState({display: newState, student: data, status: newStatus});
+      console.log(data.student)
+        this.setState({display: newState, student: data.student, status: newStatus});
     }
     render() {
         if(this.state.display === 'search'){
