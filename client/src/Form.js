@@ -57,7 +57,7 @@ class Form extends Component {
 }
 
 const getStudentData = (query) => new Promise((resolves, rejects) => {
-    const url = 'https://hidden-ravine-57932.herokuapp.com/search/' + query
+    const url = 'https://csfrosh2k17.herokuapp.com/search/' + query
     const request = new XMLHttpRequest()
     request.open('GET', url)
     request.onload = () => resolves(request)
