@@ -34,32 +34,40 @@ const studentInfoDivStyle = {
 }
 
 class Student extends Component{
-    render() {
-        console.log("Student:" + this.props.shirtSize)
-        return(
-            <div style={rootDivStyle}>
-              <MediaQuery minDeviceWidth={900}>
-                <div id="shirtSize" style={shirtSizeDivDesktopStyle}>
-                    <h2>Shirt Size:</h2>
-                    <h3 style={infoStyle}>{this.props.shirtSize.toUpperCase()}</h3>
-                </div>
-                <div id="studentInfo" style={studentInfoDivStyle}>
-                    <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}! You are on team:</h2>
-                    <h3 style={infoStyle}>{this.props.teamName.toUpperCase()}</h3>
-                </div>
-              </MediaQuery>
-              <MediaQuery maxDeviceWidth={899}>
-                <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}! You are on team:</h2>
-                <div id="studentInfo" style={studentInfoDivStyle}>
-                    <h3 style={infoStyle}>{this.props.teamName.toUpperCase()}</h3>
-                </div>
-                <h2>Shirt Size:</h2>
-                <h3 style={infoStyle}>{this.props.shirtSize.toUpperCase()}</h3>
-              </MediaQuery>
-
-            </div>
-        )
+  constructor(props){
+    super(props)
+    this.props = {
+      name: '',
+      shirtSize: '',
+      teamName: ''
     }
+  }
+  render() {
+      console.log("Student:" + this.props.shirtSize)
+      return(
+          <div style={rootDivStyle}>
+            <MediaQuery minDeviceWidth={900}>
+              <div id="shirtSize" style={shirtSizeDivDesktopStyle}>
+                  <h2>Shirt Size:</h2>
+                  <h3 style={infoStyle}>{this.props.shirtSize.toUpperCase()}</h3>
+              </div>
+              <div id="studentInfo" style={studentInfoDivStyle}>
+                  <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}! You are on team:</h2>
+                  <h3 style={infoStyle}>{this.props.teamName.toUpperCase()}</h3>
+              </div>
+            </MediaQuery>
+            <MediaQuery maxDeviceWidth={899}>
+              <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}! You are on team:</h2>
+              <div id="studentInfo" style={studentInfoDivStyle}>
+                  <h3 style={infoStyle}>{this.props.teamName.toUpperCase()}</h3>
+              </div>
+              <h2>Shirt Size:</h2>
+              <h3 style={infoStyle}>{this.props.shirtSize.toUpperCase()}</h3>
+            </MediaQuery>
+
+          </div>
+      )
+  }
 }
 
 Student.defaultProps = {
@@ -67,8 +75,7 @@ Student.defaultProps = {
   email: "ERROR",
   shirtSize: "ERROR",
   teamName: "ERROR",
-  teamNumber: "ERROR",
-
+  teamNumber: "ERROR"
 }
 
 export default Student;
