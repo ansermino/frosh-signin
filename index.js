@@ -17,6 +17,7 @@ mongoose.connection.on('disconnected', function() {
     console.log('Mongoose disconnected.');
 });
 const studentSchema = new mongoose.Schema({
+    type: {type: String},
     name: {type: String},
     email: {type: String},
     groupName: {type: String},

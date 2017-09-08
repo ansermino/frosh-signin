@@ -33,7 +33,7 @@ const studentInfoDivStyle = {
     display: "inline"
 }
 
-class Student extends Component{
+class Leader extends Component{
   constructor(props){
     super(props)
     this.props = {
@@ -51,15 +51,11 @@ class Student extends Component{
                   <h3 style={infoStyle}>{this.props.shirtSize.toUpperCase()}</h3>
               </div>
               <div id="studentInfo" style={studentInfoDivStyle}>
-                  <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}! You are on team:</h2>
-                  <h3 style={infoStyle}>{this.props.teamName.toUpperCase()}</h3>
+                  <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}!</h2>
               </div>
             </MediaQuery>
             <MediaQuery maxDeviceWidth={899}>
-              <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}! You are on team:</h2>
-              <div id="studentInfo" style={studentInfoDivStyle}>
-                  <h3 style={infoStyle}>{this.props.teamName.toUpperCase()}</h3>
-              </div>
+              <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}!</h2>
               <h2>Shirt Size:</h2>
               <h3 style={infoStyle}>{this.props.shirtSize.toUpperCase()}</h3>
             </MediaQuery>
@@ -69,7 +65,7 @@ class Student extends Component{
   }
 }
 
-Student.defaultProps = {
+Leader.defaultProps = {
   name: "ERROR",
   email: "ERROR",
   shirtSize: "ERROR",
@@ -77,4 +73,4 @@ Student.defaultProps = {
   teamNumber: "ERROR"
 }
 
-export default Student;
+export default Leader;

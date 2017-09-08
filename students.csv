@@ -1,352 +1,427 @@
-name,email,shirtSize,teamName,teamNumber
-Richard Gan,richard@designedbymajor.ca,M,Java,1
-Mahmoud Kaddah ,mahmoud_kaddah@hotmail.com,XL,Java,1
-Oscar Baracos,oscar.baracos@gmail.com,M,Java,1
-Pei Si (Patsy) Jian,pattyjclover@gmail.com,S,Java,1
-Becky Mai,beckymai.09@gmail.com,S,Java,1
-Jose Maria Casas Nassar,josem_nassar@hotmail.com,S,Java,1
-Vinit Jogani,vnjogani@gmail.com,M,Java,1
-Murad Akhundov,muradakhn@gmail.com,S,Java,1
-Roshan Kurumoorthy Ravishankar,rkrisgreat@gmail.com,S,Java,1
-Christ,mouanda88@gmail.com,L,Java,1
-Daniel Gao,danielgaorj@gmail.com,S,Python,2
-Dhruv Kalpeshkumar Patel,dhruvp68@gmail.com,L,Python,2
-Jingqi Zhang,583675307@qq.com,M,Python,2
-Mark Abdullah,markabdullah321@gmail.com,M,Python,2
-Maria Quintero ,mjq1999@gmail.com,S,Python,2
-Zexi Wang,twopieces0921@gmail.com,M,Python,2
-Shafna Kallil,chinnukallil@gmail.com,L,Python,2
-Brandon Chu,chu.brandon3@gmail.com,M,Python,2
-Kshitij Shah,kshnik@gmail.com,M,Python,2
-Yi Qing Liu,yiqing.liu@mail.utoronto.ca,S,Python,2
-Adheesh Shenoy,adheeshenoy@gmail.com,XL,C,3
-Yujin Cho,iamyujinc@gmail.com,S,C,3
-Max Sours,maxsours@gmail.com,L,C,3
-Christian Philips ,christianphilip44@gmail.com,M,C,3
-Alex Gordienko,alex.gordienko@mail.utoronto.ca,L,C,3
-Yiqi Shen,scottshen0515@gmail.com,M,C,3
-Cora (Xintian) Liu,cora037104100@gmail.com,XL,C,3
-Georges Kanaan,giokanaan@gmail.com,M,C,3
-Ilan Segal,ilanbsegal@gmail.com,M,C,3
-Hiransh Shah,hari.aansh@gmail.com,S,C,3
-Xiaohe Gong,gongheddy@yahoo.com,M,C++,4
-Utkarsh Agarwal,u2agarwal99@gmail.com,M,C++,4
-RONGRONG CHU,sauronchu@outlook.com,L,C++,4
-Matthew Choi,matthew9655@hotmail.com,M,C++,4
-Zhao Wang,jaz.wang@mail.utoronto.ca,M,C++,4
-Dania Ismadi,daniaismadi14@gmail.com,S,C++,4
-Ibrahim El-Rayes,ibrahimkelrayes@gmail.com,M,C++,4
-Max Pham,MaxPham99@gmail.com,S,C++,4
-Charlie Chiu,charlie02233@yahoo.com.tw,L,C++,4
-Nikhi Bhambra,nikhil.bhambra@mail.utoronto.ca,S,C++,4
-Thomas J Passaro,thomas.j.passaro@gmail.com,L,C#,5
-Colin Lambe,Colinlambexc922@gmail.com,M,C#,5
-Sally Kang,sallykang1999@163.com,L,C#,5
-Alec Derry,derryalecuniversity@gmail.com,L,C#,5
-Robin Medd,robinmedd@hotmail.com,S,C#,5
-Ryan Marten,ryanmarten2000@gmail.com,L,C#,5
-Joshua Bragg,joshua.bragg@outlook.com,L,C#,5
-Ignas Panero Armoska,ignaspan@gmail.com,L,C#,5
-Mit Kapadia,mit_rupang@yahoo.ca,S,C#,5
-Maria Rozoveanu,mariarozoveanu@yahoo.ca,M,C#,5
-William Nono,williamnono94@hotmail.com,M,PHP,6
-Chen Zhong Lu,1792868200lu@gmail.com,L,PHP,6
-Delmar Zhao,delmar.quatchi@gmail.com,M,PHP,6
-Gaurav Sharma,g.sharma0909@gmail.com,M,PHP,6
-Jack Roussel,jackrousselschool@gmail.com,M,PHP,6
-Manveer Basra,m13basra@gmail.com,S,PHP,6
-Steven Kang,stevenkang84@yahoo.ca,M,PHP,6
-Sieun Lee,sieun.v.lee@gmail.com,M,PHP,6
-Nour Mokdad,nouramermokdad@gmail.com,M,PHP,6
-Kevin Yang,yang.kevin.100@gmail.com,L,PHP,6
-Tina Li,tinally7@gmail.com,M,Swift,7
-Tanvi Srivatsa,tanvi.srivatsa@mail.utoronto.ca,L,Swift,7
-Quinn Si Nan Yang,quinnsy7@gmail.com,M,Swift,7
-Yuzhou Yao,fffredericky@gmail.com,L,Swift,7
-Michael Katilevsky,katilevsky.michael@gmail.com,L,Swift,7
-Alex Quach,alex.quach@mail.utoronto.ca,M,Swift,7
-Zuhab Wasim,z-wasim-786@live.com,M,Swift,7
-Jialu Lin,Jialumm@gmail.com,M,Swift,7
-Arjun Sahni,arjunsahnicollege@gmail.com,S,Swift,7
-Ece Yucer,eceyucer@gmail.com,S,Swift,7
-Felicia Liang,FeliciaLiang.Canada@gmail.com,M,Pearl,8
-Eric Hwang,erichwang314@gmail.com,L,Pearl,8
-Tammy Hsu ,tammy00661199@gmail.com,S,Pearl,8
-Marco Angeli,marco.angeli@mail.utoronto.ca,L,Pearl,8
-Can Kesisoglu,can@kesisoglu.com,L,Pearl,8
-Ricky Yuen,yuen.ricky@hotmail.com,M,Pearl,8
-Eunkyo Oh,gregoh1215@gmail.com,M,Pearl,8
-Neel Patel,neel_patel@live.ca,L,Pearl,8
-Nick Grader,ncgrader@gmail.com,M,Pearl,8
-Royce Ayroso-Ong,royce.ayrosoong@gmail.com,M,Pearl,8
-Nancy Zhang,nancyzhang2017@gmail.com,S,Ruby,9
-Eleonora Kukash,eleonora.kukash@mail.utoronto.ca,M,Ruby,9
-Yu Ji Mao,smao99514@gmail.com,L,Ruby,9
-Jack,jack_mckinney98@hotmail.com,L,Ruby,9
-Rosemary Norheim,rmnorheim61@gmail.com,S,Ruby,9
-Zhengdan Li,lizhengdan_ca@hotmail.com,S,Ruby,9
-Phillip Christoffersen,phillip.christoffersen@mail.utoronto.ca,L,Ruby,9
-Chungeng(Jerry) Meng,jerrymeng99@gmail.com,S,Ruby,9
-Zhihao Zhan,zhanzhihao201709@163.com,M,Ruby,9
-Talal Abu-Rob,talalaburob@gmail.com,S,Ruby,9
-Weiqing Wang,bailey.wq.wang@hotmail.com,L,Objective-C,10
-Basil Chi Fung WONG,basilw99@gmail.com,M,Objective-C,10
-Jacob Nazarenko,jnazaren@gmail.com,L,Objective-C,10
-Jacob Kelly,jacob.jin.kelly@gmail.com,M,Objective-C,10
-Andrew Lee,andrewlee1097@gmail.com,L,Objective-C,10
-Jennifer Liu,jenliu1999@gmail.com,S,Objective-C,10
-Tahasun Tarannum ,tahasun99@gmail.com,S,Objective-C,10
-Jinghao Zhang,g4ryzhang@gmail.com,L,Objective-C,10
-Shao Yezheng,shaoyezheng@126.com,L,Objective-C,10
-ZhiYi Jin (Leo),leoltw97@163.com,XL,Objective-C,10
-TianJiao He,h_tianjiao@outlook.com,M,JavaScript,11
-Ibrahim Farooq,contact.ifarooq03@gmail.com,L,JavaScript,11
-Abhishek Kapoor,abhishekkapoor@mkis.edu.my,M,JavaScript,11
-Wenqin Ye,wenqin908@gmail.com,M,JavaScript,11
-Yueze Fang,fangyueze1998@126.com,L,JavaScript,11
-Bill Le,leminhtri98@gmail.com,M,JavaScript,11
-Elias Volonakis,elias.volonakis@mail.utoronto.ca,L,JavaScript,11
-Ellen Puhalovich,epuhalovich@gmail.com,M,JavaScript,11
-Yujie MIao,emolangshen@gmail.com,M,JavaScript,11
-Shaun Liu,shaunliu6@gmail.com,S,JavaScript,11
-William Zhao,williamzhao23@gmail.com,S,GO,12
-Jeffrey Chen,Jack_chen1999@hotmail.com,M,GO,12
-Anna Lai,annateresalai@gmail.com,M,GO,12
-Prianka Roy,prianka.roy@mail.utoronto.ca,S,GO,12
-Adit Gajjar,adit.g@outlook.com,M,GO,12
-Christopher Marcok,chris.marcok@gmail.com,S,GO,12
-Ralph Bassim,ralph.bassim@gmail.com,S,GO,12
-Xinyi Zhang,cindyzhang0529@gmail.com,S,GO,12
-Matthieu Fabien Wen Leung Chan Chee,matthieuchanchee@gmail.com,M,GO,12
-Jiabao Xie,jimbo.xie@mail.utoronto.ca,M,GO,12
-Promiti Datta,promitid@gmail.com,M,Visual Basic,13
-Danika Mariam,danika.mariam@gmail.com,S,Visual Basic,13
-Abhishek Chivukula,99abhic@gmail.com,M,Visual Basic,13
-Alec Evangelista,evangelista.alec@gmail.com,M,Visual Basic,13
-Diego Nunez,diegofnunezr@gmail.com,M,Visual Basic,13
-Kieran Stewart,kieranstewart318@gmail.com,L,Visual Basic,13
-Yi XU,melody_xuyi@163.com,L,Visual Basic,13
-Saad Khan,saamoz2012@gmail.com,L,Visual Basic,13
-Victor Lu,victorlu26@yahoo.ca,S,Visual Basic,13
-Najib Abukar,n.abukar99@gmail.com,L,Visual Basic,13
-Dikshya Panta,dikshyapanta1@gmail.com,S,Pascal,14
-Jason Moore,jmmoore34@gmail.com,M,Pascal,14
-Tsan Yu Huang,huang.samuel55@gmail.com,M,Pascal,14
-Willy Chan,willychan@live.ca,M,Pascal,14
-Elaine Zhang,elaine.zhang0916@gmail.com,M,Pascal,14
-Brandon Dang,ilikevid3ogames@gmail.com,S,Pascal,14
-Jackie Huang,jackie.huang@mail.utoronto.ca,M,Pascal,14
-Yizhe Cheng,tcheng102@gmail.com,L,Pascal,14
-Zun Cao,esizzle69@gmail.com,M,Pascal,14
-Vincent DiMarco,Somebeingsomewhere@gmail.com,L,Pascal,14
-Corrine Jiang,corrine.j@yahoo.com,M,Scratch,15
-Yao (Kelvin) Fan,kelvinfan001@gmail.com,S,Scratch,15
-Maggie Zhu,mg_zhu@outlook.com,S,Scratch,15
-Haoda Li,lihd1003@hotmail.com,L,Scratch,15
-Benjamin Prystawski,benprystawski@gmail.com,M,Scratch,15
-David Cao,davidcao1231@gmail.com,S,Scratch,15
-Stew Esho,stew.esho@mail.utoronto.ca,L,Scratch,15
-Ningxin (Erin) Wang,erinerinningxin.wang@mail.utoronto.ca,S,Scratch,15
-Muhammad Khattak,muhammadskhattak@gmail.com,M,Scratch,15
-Eddie Moon,eddiemoon297@gmail.com,M,Scratch,15
-Kexin Lin,klin@hgs.ns.ca,S,Kotlin,16
-Brian Quach,briann.quach@mail.utoronto.ca,S,Kotlin,16
-Jason zhao,jasonzhao323@gmail.com,L,Kotlin,16
-David Choi,sanggon.choi.dc@gmail.com,XL,Kotlin,16
-Anirudh Hari Baskar,anirudhharibaskar@gmail.com,M,Kotlin,16
-Katrina Ronquillo,k.ronquillo99@gmail.com,S,Kotlin,16
-Bhavya Miten Shah,bhavyas@adityabirlaworldacademy.com,L,Kotlin,16
-Simran Singh ,Simranp.singh@mail.utoronto.ca,S,Kotlin,16
-Bill Li,billbillbill.li@mail.utoronto.ca,S,Kotlin,16
-Ren Zhang,rzhang0701@gmail.com,S,Kotlin,16
-Jason Park,jasonpark126@hotmail.com,M,Bash,17
-Rochelle Solomon,rochelle.boychuk@gmail.com,M,Bash,17
-Joyce Sun,joyce-sun@outlook.com,M,Bash,17
-Weiran Gu,weiran.gu@mail.utoronto.ca,S,Bash,17
-Mozammil Khan,saminkhann1@gmail.com,S,Bash,17
-Shahmir Usman,shahmirusman1999@gmail.com,S,Bash,17
-Samantha Fassnacht,samantha.fassnacht@gmail.com,S,Bash,17
-Lance Oribello,lanceoribello@gmail.com,M,Bash,17
-Ahamad Ullah,Ahamad.ullahh@gmail.com,S,Bash,17
-Dhruvasu Bhatia,dhruvasu1@gmail.com,M,Bash,17
-Cam Martin,cameron.d.martin@gmail.com,M,Verilong,18
-Alex Waddell,alex.waddell@mail.utoronto.ca,M,Verilong,18
-Jonathan Oxman,oxmanjonathan@gmail.com,L,Verilong,18
-Viresh Umbre,viresh.rajiv.umbre@gmail.com,M,Verilong,18
-Qingyuan Qie,qieqyuan@163.com,XL,Verilong,18
-Ramil Nassyrov,ramilnassyrov8@gmail.com,M,Verilong,18
-Marvi Patel,marvi.patel@gmail.com,M,Verilong,18
-Chen Jiaxuan,1084856427@qq.com,L,Verilong,18
-Rishi Vijayvargiya,rishivv580@gmail.com,M,Verilong,18
-Tamsen Yau,tamsenyau@hotmail.com,M,Verilong,18
-Kavan Liang,kavanliang@gmail.com,M,Erlang,19
-Sid Gupta,sid1999@live.ca,M,Erlang,19
-Saim Ibrahim,saim.ibrahim1999@gmail.com,XL,Erlang,19
-Yuqi Bi,yuki990301@gmail.com,M,Erlang,19
-Hao Yu,hpeiyu.yu@mail.utoronto.ca,M,Erlang,19
-ChanYoung Cho,dk90801@gmail.com,L,Erlang,19
-Stacey Thomas,tstacey297@gmail.com,S,Erlang,19
-Rabia'h Malik,rmalik999@hotmail.com,S,Erlang,19
-Wenhao Zhang,zhangwh41@gmail.com,M,Erlang,19
-Justin Kim,roboijk@gmail.com,M,Erlang,19
-Jake Matlin,jake.matlin@mail.utoronto.ca,M,Dart,20
-Jianong LI,lijianong97@163.com,M,Dart,20
-Sharma,shourya134@gmail.com,XL,Dart,20
-Tian Ze Xu,utianzexu@gmail.com,M,Dart,20
-( Kevin ) Yi Han Zhang,kevinyzzzz101@gmail.com,L,Dart,20
-Abdullah Khokhar,abdullahk786@hotmail.com,M,Dart,20
-Utkarsh Hora,utkarshhora.99@gmail.com,S,Dart,20
-Yosef Leibman,yoyosef@gmail.com,M,Dart,20
-Abbas Sabir Ujjainwala,abbassabirujjainwala@gmail.com,S,Dart,20
-Qi Zou,q1193737161@yahoo.ca,L,Dart,20
-Robin Jefferies,robinjefferies@outlook.com,S,Scala,21
-Mian Wang,bothesnail2009@gmail.com,M,Scala,21
-Rohit Bansal,rohitbansal0602@yahoo.com,L,Scala,21
-Yilun Li,bobliyilun@gmail.com,M,Scala,21
-Samuel,jeremychilderhose@gmail.com,M,Scala,21
-Ishaan Ghosh,ishaani99@gmail.com,M,Scala,21
-David Canagasabey,david.canagasabey@gmail.com,S,Scala,21
-Michael Lee,mich.lee1999@gmail.com,M,Scala,21
-Michelle Luo,michelle_luo@live.com,M,Scala,21
-Ryan Chang,rzinshanghai@gmail.com,M,Scala,21
-Meirbek Zeinulla,meirbekzt@yahoo.com,M,R,22
-Marcus Zheng,zarcusmheng@gmail.com,L,R,22
-Jiaying He,hejiaying2016@gmail.com,M,R,22
-Yulin Wang,wangyulin19971017@126.com,M,R,22
-Tejbeer Singh Bhullar,tejbeerbhullar0001@gmail.com,L,R,22
-Hansi Xu,hxacs7755@gmail.com,M,R,22
-Haresh Nasit,harshnasit123@gmail.com,M,R,22
-immanuel abdi,immanuelazn@gmail.com,M,R,22
-Christopher Jung,jsjchris@gmail.com,M,R,22
-Kameron sturgess,kameronsturgess@gmail.com,S,R,22
-Shahzil Lakhani,s.lakhani@hotmail.ca,M,Groovy,23
-Howard Chen,elongateddanishtoaster@gmail.com,L,Groovy,23
-Ishan Sharma,ishmayoite440@gmail.com,S,Groovy,23
-Chinmaya Nathany,chinmaya.nathany@gmail.com,M,Groovy,23
-Jevinjyot Sidhu,jevin.sidhu@gmail.com,S,Groovy,23
-Mahaksh Malhotra,malhotramahaksh99@gmail.com,M,Groovy,23
-Ziyad Edher,ziyad.edher@gmail.com,M,Groovy,23
-Shivam Garg,shivam99garg@yahoo.com,L,Groovy,23
-Jingfei Tan,fayefayetan@hotmail.com,M,Groovy,23
-Maryam Hassan,maryamh1399@gmail.com,L,Groovy,23
-Pulakesh Lohiya,pul.lohiya@gmail.com,M,F#,24
-Uzair Chudhary,uzairchudhary@gmail.com,L,F#,24
-Andrew Heyman,abheyman23@sbcglobal.net,M,F#,24
-I-Yu (Ian) Chen,ian302502@gmail.com,M,F#,24
-Anindya Auveek,Anindya.auveek@gmail.com,M,F#,24
-Gozie Nwaka,gozie.nwaka@learning.ecolint.ch,M,F#,24
-Adam Comer,adambcomer@gmail.com,M,F#,24
-Lizhen Ying,yinglizhen@gmail.com,S,F#,24
-Inness Amollo,ineslianne@gmail.com,M,F#,24
-Alexander Daigle,aldaigle99@gmail.com,M,F#,24
-Victor Pan,victorpan98@gmail.com,M,Haskell,25
-Sultan Sidhu,sultansinghsidhu@gmail.com,L,Haskell,25
-YUNYI HE,heyunyi99@hotmail.com,S,Haskell,25
-Injong Won,weonjo43@gmail.com,M,Haskell,25
-Colin Tutchener,crtutchener1999@gmail.com,L,Haskell,25
-Rayana Azar,azarrayana@gmail.com,S,Haskell,25
-Sunyun Lee,sunyun528@gmail.com,S,Haskell,25
-Yijia Shen,839182485syj@gmail.com,M,Haskell,25
-Dylan Baptist,dylanbaps@gmail.com,M,Haskell,25
-Kailong Huang,kailong9@gmail.com,M,Haskell,25
-Emma Hasaralejko ,Emma.hasaralejko@gmail.com,M,Rust,26
-Jessica Swies,jessicaswies@hotmail.com,M,Rust,26
-Wu Junxuan,835918679@qq.com,XL,Rust,26
-Shengye Niu,niutony27@gmail.com,XL,Rust,26
-Linus Shaw,linusshaw99@gmail.com,L,Rust,26
-Henry Gao,henry.wenhan.gao@gmail.com,M,Rust,26
-Robert Fang,fangrobert1999@gmail.com,M,Rust,26
-Bhupa Palalikit,mickeybhupa@gmail.com,M,Rust,26
-Sabrina Yu,sabrinayu7@hotmail.com,M,Rust,26
-Tameem Hassan,tameemhassan1@gmail.com,S,Rust,26
-Zhengyu Cai,792829031@qq.com,M,Hack,27
-Tania Pereira,taniapereira089@gmail.com,S,Hack,27
-Timothy Lee,timothyhw@gmail.com,M,Hack,27
-Arian Safaei,arian.safaei@mail.utoronto.ca,M,Hack,27
-Tsung-en Huang,tsungenhuang@gmail.com,M,Hack,27
-Akarsh Sharma,akarsh311298@gmail.com,M,Hack,27
-Sarthak Saxena,ssarthak.1999@gmail.com,S,Hack,27
-Shardul Bansal,bansa11750@gmail.com,M,Hack,27
-Philip Danso,loganwhytte@gmail.com,M,Hack,27
-Yue Qiu Zhong,yueqiu24@outlook.com,XL,Hack,27
-Eric Lindau,eric.lindau1@gmail.com,M,Arduino,28
-Hantang Li,lhtmicapp@hotmail.com,XL,Arduino,28
-Zewen Shen,attackshen@gmail.com,M,Arduino,28
-Adam Zartin,zartina@ismanila.org,M,Arduino,28
-Nathan Jayawardene,nathan.jayawardene@gmail.com,L,Arduino,28
-Zach Folan,zfolan@yahoo.com,L,Arduino,28
-Xinyi Ji,xinyiji98@aliyun.com,M,Arduino,28
-Jason He,jasonhaha25@126.com,M,Arduino,28
-William Chen,williamsjchen@163.com,S,Arduino,28
-SIQI  CHEN,cherry.chenbca@yahoo.com,M,Arduino,28
-Xu Wang,jasonwang20150128@gmail.com,M,Racket,29
-Devin Castaban,snipingspiker3@gmail.com,L,Racket,29
-Chris Ng,chrng1@live.ca,S,Racket,29
-Ayush Gupta,ayushgupta3@hotmail.com,S,Racket,29
-Yagiz Alkilic,yagiz.alkilic1@gmail.com,M,Racket,29
-ChenghaoWang,chenghaowang03@gmail.com,L,Racket,29
-Vadym Martsynovskyy,vadym@shaw.ca,M,Racket,29
-Marvin Mariano,marvin@mariano.xyz,L,Racket,29
-Matthew Verreault,matthewverreault@yahoo.com,L,Racket,29
-Huiying(Mindy) Xu,mindyxu.8181@gmail.com,M,Racket,29
-Tianquan Di,dtq99827@gmail.com,M,CoffeeScript,30
-Lucas Fenaux,suplucas91@hotmail.fr,M,CoffeeScript,30
-Ben Weisz,bencew99@gmail.com,M,CoffeeScript,30
-Oleksandr Gress,alex.gress@mail.utoronto.ca,S,CoffeeScript,30
-Yuzhou Yao,yuzhou.yao@mail.utoronto.ca,M,CoffeeScript,30
-SANGRYUL YUN ,creepyjacob5827@gmail.com,XL,CoffeeScript,30
-Rui Yue Sun,sherrysun1999@outlook.com,S,CoffeeScript,30
-Yuan Xu,xu1941204103@gmail.com,S,CoffeeScript,30
-Wen Wang,wangwen8070@gmail.com,S,CoffeeScript,30
-Zohair Ghoury,zohairghoury@outlook.com,L,CoffeeScript,30
-RJ Viray,rjv5599@gmail.com,S,Lua,31
-Xinyi Liu,helenliu666666@gmail.com,S,Lua,31
-Nancy Zhao,nancy.zhao@outlook.com,M,Lua,31
-Carlson Lau,carl.lau999@gmail.com,M,Lua,31
-George Lu,xia0diao@hotmail.com,M,Lua,31
-Quin,ftquin@gmail.com,L,Lua,31
-Magomed Evloev,magomed5435@gmail.com,M,Lua,31
-Florin Salasan,florinsalasan@gmail.com,XL,Lua,31
-Anna,annateresa.lai@mail.utoronto.ca,M,Lua,31
-Salman Shahzad Mohamad,salmanm725@gmail.com,L,Lua,31
-Raaid Mahboob,raaidsm@gmail.com,M,Fortran,32
-dhanraj,dhanraj@live.ca,S,Fortran,32
-Xinyue Ren,xinyue.ren@mail.utoronto.ca,M,Fortran,32
-Jason Li,JasonLi1000@hotmail.com,M,Fortran,32
-Sepehr ,sepehreghbal@gmail.com,M,Fortran,32
-Thomas Liu,tommyliu9@gmail.com,S,Fortran,32
-Jay Wang,jj276624@gmail.com,M,Fortran,32
-Andy Zhu,andyzhu00112@hotmail.com,M,Fortran,32
-Alyssa Schleifer,alyssa.schleifer@mail.utoronto.ca,S,Fortran,32
-Arjun Sahni,arjun.sahni@mail.utoronto.ca,S,Fortran,32
-Jimmy Tan,jtan5372@gmail.com,S,TypeScript,33
-Fiona McCauley,fiona.mccauley@mail.utoronto.ca,S,TypeScript,33
-Viktor Zhuang,syzhuang723@gmail.com,M,TypeScript,33
-Jiesi Liu,jiesi.liu@mail.utoronto.ca,S,TypeScript,33
-Nash Burt,nashburt@gmail.com,L,TypeScript,33
-George Huang,huangjianlin9897@gmail.com,M,TypeScript,33
-Ashutosh,banjaraashutosh@gmail.com,M,TypeScript,33
-Kashaf Salaheen,ksalaheen@gmail.com,M,TypeScript,33
-Disha Nayak,dishanayak10@gmail.com,S,TypeScript,33
-Zhuozi Zou,1092318026@qq.com,S,TypeScript,33
-Victor Trinh,trinhvictor12@gmail.com,L,Julia,34
-Micheal Mao,furrystreamrock.7@gmail.com,M,Julia,34
-Christina,christinawang521@gmail.com,L,Julia,34
-Huakun Shen,shenhuakun@outlook.com,M,Julia,34
-Ting Fu Hsu,tingfu.hsu@gmail.com,M,Julia,34
-leon ,leonfeng0601@gmail.com,L,Julia,34
-Wei Cong,lim142857@gmail.com,L,Julia,34
-Angela Zhu,angelahjzhu@gmail.com,M,Julia,34
-Victor Huang,vict.huang@mail.utoronto.ca,L,Julia,34
-Chin Hou Ren,hou_96@hotmail.com,L,Julia,34
-James Currier,jcurrier@live.ca,M,Lisp,35
-yinlingluo,yinling.luo@mail.utoronto.ca,S,Lisp,35
-Good Suravudhikul,good.suravudhikul@mail.utoronto.ca,M,Lisp,35
-Jefferson Zhong,461383578zhong@gmail.com,M,Lisp,35
-Jimmy Chen,jyc.chen@mail.utoronto.ca,M,Lisp,35
-Simon Entote,simon.entote@mail.utoronto.ca,S,Lisp,35
-Jenkin,degeajenkin1743@gmail.com,S,Lisp,35
-Ruth Crasto,ruth.crasto@mail.utoronto.ca,S,Lisp,35
-Test User 1,test1@test.com,M,ABC,36
-Test User 2,test2@test.com,L,ABC,36
-Test User 3,test3@test.com,S,ABC,36
+type,name,email,shirtSize,teamName,teamNumber
+student,Richard Gan,richard@designedbymajor.ca,M,Java,1
+student,Mahmoud Kaddah ,mahmoud_kaddah@hotmail.com,XL,Java,1
+student,Oscar Baracos,oscar.baracos@gmail.com,M,Java,1
+student,Pei Si (Patsy) Jian,pattyjclover@gmail.com,S,Java,1
+student,Becky Mai,beckymai.09@gmail.com,S,Java,1
+student,Jose Maria Casas Nassar,josem_nassar@hotmail.com,S,Java,1
+student,Vinit Jogani,vnjogani@gmail.com,M,Java,1
+student,Murad Akhundov,muradakhn@gmail.com,S,Java,1
+student,Roshan Kurumoorthy Ravishankar,rkrisgreat@gmail.com,S,Java,1
+student,Christ,mouanda88@gmail.com,L,Java,1
+student,Daniel Gao,danielgaorj@gmail.com,S,Python,2
+student,Dhruv Kalpeshkumar Patel,dhruvp68@gmail.com,L,Python,2
+student,Jingqi Zhang,583675307@qq.com,M,Python,2
+student,Mark Abdullah,markabdullah321@gmail.com,M,Python,2
+student,Maria Quintero ,mjq1999@gmail.com,S,Python,2
+student,Zexi Wang,twopieces0921@gmail.com,M,Python,2
+student,Shafna Kallil,chinnukallil@gmail.com,L,Python,2
+student,Brandon Chu,chu.brandon3@gmail.com,M,Python,2
+student,Kshitij Shah,kshnik@gmail.com,M,Python,2
+student,Yi Qing Liu,yiqing.liu@mail.utoronto.ca,S,Python,2
+student,Adheesh Shenoy,adheeshenoy@gmail.com,XL,C,3
+student,Yujin Cho,iamyujinc@gmail.com,S,C,3
+student,Max Sours,maxsours@gmail.com,L,C,3
+student,Christian Philips ,christianphilip44@gmail.com,M,C,3
+student,Alex Gordienko,alex.gordienko@mail.utoronto.ca,L,C,3
+student,Yiqi Shen,scottshen0515@gmail.com,M,C,3
+student,Cora (Xintian) Liu,cora037104100@gmail.com,XL,C,3
+student,Georges Kanaan,giokanaan@gmail.com,M,C,3
+student,Ilan Segal,ilanbsegal@gmail.com,M,C,3
+student,Hiransh Shah,hari.aansh@gmail.com,S,C,3
+student,Xiaohe Gong,gongheddy@yahoo.com,M,C++,4
+student,Utkarsh Agarwal,u2agarwal99@gmail.com,M,C++,4
+student,RONGRONG CHU,sauronchu@outlook.com,L,C++,4
+student,Matthew Choi,matthew9655@hotmail.com,M,C++,4
+student,Zhao Wang,jaz.wang@mail.utoronto.ca,M,C++,4
+student,Dania Ismadi,daniaismadi14@gmail.com,S,C++,4
+student,Ibrahim El-Rayes,ibrahimkelrayes@gmail.com,M,C++,4
+student,Max Pham,maxpham99@gmail.com,S,C++,4
+student,Charlie Chiu,charlie02233@yahoo.com.tw,L,C++,4
+student,Nikhi Bhambra,nikhil.bhambra@mail.utoronto.ca,S,C++,4
+student,Thomas J Passaro,thomas.j.passaro@gmail.com,L,C#,5
+student,Colin Lambe,colinlambexc922@gmail.com,M,C#,5
+student,Sally Kang,sallykang1999@163.com,L,C#,5
+student,Alec Derry,derryalecuniversity@gmail.com,L,C#,5
+student,Robin Medd,robinmedd@hotmail.com,S,C#,5
+student,Ryan Marten,ryanmarten2000@gmail.com,L,C#,5
+student,Joshua Bragg,joshua.bragg@outlook.com,L,C#,5
+student,Ignas Panero Armoska,ignaspan@gmail.com,L,C#,5
+student,Mit Kapadia,mit_rupang@yahoo.ca,S,C#,5
+student,Maria Rozoveanu,mariarozoveanu@yahoo.ca,M,C#,5
+student,William Nono,williamnono94@hotmail.com,M,PHP,6
+student,Chen Zhong Lu,1792868200lu@gmail.com,L,PHP,6
+student,Delmar Zhao,delmar.quatchi@gmail.com,M,PHP,6
+student,Gaurav Sharma,g.sharma0909@gmail.com,M,PHP,6
+student,Jack Roussel,jackrousselschool@gmail.com,M,PHP,6
+student,Manveer Basra,m13basra@gmail.com,S,PHP,6
+student,Steven Kang,stevenkang84@yahoo.ca,M,PHP,6
+student,Sieun Lee,sieun.v.lee@gmail.com,M,PHP,6
+student,Nour Mokdad,nouramermokdad@gmail.com,M,PHP,6
+student,Kevin Yang,yang.kevin.100@gmail.com,L,PHP,6
+student,Tina Li,tinally7@gmail.com,M,Swift,7
+student,Tanvi Srivatsa,tanvi.srivatsa@mail.utoronto.ca,L,Swift,7
+student,Quinn Si Nan Yang,quinnsy7@gmail.com,M,Swift,7
+student,Yuzhou Yao,fffredericky@gmail.com,L,Swift,7
+student,Michael Katilevsky,katilevsky.michael@gmail.com,L,Swift,7
+student,Alex Quach,alex.quach@mail.utoronto.ca,M,Swift,7
+student,Zuhab Wasim,z-wasim-786@live.com,M,Swift,7
+student,Jialu Lin,jialumm@gmail.com,M,Swift,7
+student,Arjun Sahni,arjunsahnicollege@gmail.com,S,Swift,7
+student,Ece Yucer,eceyucer@gmail.com,S,Swift,7
+student,Felicia Liang,felicialiang.canada@gmail.com,M,Pearl,8
+student,Eric Hwang,erichwang314@gmail.com,L,Pearl,8
+student,Tammy Hsu ,tammy00661199@gmail.com,S,Pearl,8
+student,Marco Angeli,marco.angeli@mail.utoronto.ca,L,Pearl,8
+student,Can Kesisoglu,can@kesisoglu.com,L,Pearl,8
+student,Ricky Yuen,yuen.ricky@hotmail.com,M,Pearl,8
+student,Eunkyo Oh,gregoh1215@gmail.com,M,Pearl,8
+student,Neel Patel,neel_patel@live.ca,L,Pearl,8
+student,Nick Grader,ncgrader@gmail.com,M,Pearl,8
+student,Royce Ayroso-Ong,royce.ayrosoong@gmail.com,M,Pearl,8
+student,Nancy Zhang,nancyzhang2017@gmail.com,S,Ruby,9
+student,Eleonora Kukash,eleonora.kukash@mail.utoronto.ca,M,Ruby,9
+student,Yu Ji Mao,smao99514@gmail.com,L,Ruby,9
+student,Jack,jack_mckinney98@hotmail.com,L,Ruby,9
+student,Rosemary Norheim,rmnorheim61@gmail.com,S,Ruby,9
+student,Zhengdan Li,lizhengdan_ca@hotmail.com,S,Ruby,9
+student,Phillip Christoffersen,phillip.christoffersen@mail.utoronto.ca,L,Ruby,9
+student,Chungeng(Jerry) Meng,jerrymeng99@gmail.com,S,Ruby,9
+student,Zhihao Zhan,zhanzhihao201709@163.com,M,Ruby,9
+student,Talal Abu-Rob,talalaburob@gmail.com,S,Ruby,9
+student,Weiqing Wang,bailey.wq.wang@hotmail.com,L,Objective-C,10
+student,Basil Chi Fung WONG,basilw99@gmail.com,M,Objective-C,10
+student,Jacob Nazarenko,jnazaren@gmail.com,L,Objective-C,10
+student,Jacob Kelly,jacob.jin.kelly@gmail.com,M,Objective-C,10
+student,Andrew Lee,andrewlee1097@gmail.com,L,Objective-C,10
+student,Jennifer Liu,jenliu1999@gmail.com,S,Objective-C,10
+student,Tahasun Tarannum ,tahasun99@gmail.com,S,Objective-C,10
+student,Jinghao Zhang,g4ryzhang@gmail.com,L,Objective-C,10
+student,Shao Yezheng,shaoyezheng@126.com,L,Objective-C,10
+student,ZhiYi Jin (Leo),leoltw97@163.com,XL,Objective-C,10
+student,TianJiao He,h_tianjiao@outlook.com,M,JavaScript,11
+student,Ibrahim Farooq,contact.ifarooq03@gmail.com,L,JavaScript,11
+student,Abhishek Kapoor,abhishekkapoor@mkis.edu.my,M,JavaScript,11
+student,Wenqin Ye,wenqin908@gmail.com,M,JavaScript,11
+student,Yueze Fang,fangyueze1998@126.com,L,JavaScript,11
+student,Bill Le,leminhtri98@gmail.com,M,JavaScript,11
+student,Elias Volonakis,elias.volonakis@mail.utoronto.ca,L,JavaScript,11
+student,Ellen Puhalovich,epuhalovich@gmail.com,M,JavaScript,11
+student,Yujie MIao,emolangshen@gmail.com,M,JavaScript,11
+student,Shaun Liu,shaunliu6@gmail.com,S,JavaScript,11
+student,William Zhao,williamzhao23@gmail.com,S,GO,12
+student,Jeffrey Chen,jack_chen1999@hotmail.com,M,GO,12
+student,Anna Lai,annateresalai@gmail.com,M,GO,12
+student,Prianka Roy,prianka.roy@mail.utoronto.ca,S,GO,12
+student,Adit Gajjar,adit.g@outlook.com,M,GO,12
+student,Christopher Marcok,chris.marcok@gmail.com,S,GO,12
+student,Ralph Bassim,ralph.bassim@gmail.com,S,GO,12
+student,Xinyi Zhang,cindyzhang0529@gmail.com,S,GO,12
+student,Matthieu Fabien Wen Leung Chan Chee,matthieuchanchee@gmail.com,M,GO,12
+student,Jiabao Xie,jimbo.xie@mail.utoronto.ca,M,GO,12
+student,Promiti Datta,promitid@gmail.com,M,Visual Basic,13
+student,Danika Mariam,danika.mariam@gmail.com,S,Visual Basic,13
+student,Abhishek Chivukula,99abhic@gmail.com,M,Visual Basic,13
+student,Alec Evangelista,evangelista.alec@gmail.com,M,Visual Basic,13
+student,Diego Nunez,diegofnunezr@gmail.com,M,Visual Basic,13
+student,Kieran Stewart,kieranstewart318@gmail.com,L,Visual Basic,13
+student,Yi XU,melody_xuyi@163.com,L,Visual Basic,13
+student,Saad Khan,saamoz2012@gmail.com,L,Visual Basic,13
+student,Victor Lu,victorlu26@yahoo.ca,S,Visual Basic,13
+student,Najib Abukar,n.abukar99@gmail.com,L,Visual Basic,13
+student,Dikshya Panta,dikshyapanta1@gmail.com,S,Pascal,14
+student,Jason Moore,jmmoore34@gmail.com,M,Pascal,14
+student,Tsan Yu Huang,huang.samuel55@gmail.com,M,Pascal,14
+student,Willy Chan,willychan@live.ca,M,Pascal,14
+student,Elaine Zhang,elaine.zhang0916@gmail.com,M,Pascal,14
+student,Brandon Dang,ilikevid3ogames@gmail.com,S,Pascal,14
+student,Jackie Huang,jackie.huang@mail.utoronto.ca,M,Pascal,14
+student,Yizhe Cheng,tcheng102@gmail.com,L,Pascal,14
+student,Zun Cao,esizzle69@gmail.com,M,Pascal,14
+student,Vincent DiMarco,somebeingsomewhere@gmail.com,L,Pascal,14
+student,Corrine Jiang,corrine.j@yahoo.com,M,Scratch,15
+student,Yao (Kelvin) Fan,kelvinfan001@gmail.com,S,Scratch,15
+student,Maggie Zhu,mg_zhu@outlook.com,S,Scratch,15
+student,Haoda Li,lihd1003@hotmail.com,L,Scratch,15
+student,Benjamin Prystawski,benprystawski@gmail.com,M,Scratch,15
+student,David Cao,davidcao1231@gmail.com,S,Scratch,15
+student,Stew Esho,stew.esho@mail.utoronto.ca,L,Scratch,15
+student,Ningxin (Erin) Wang,erinerinningxin.wang@mail.utoronto.ca,S,Scratch,15
+student,Muhammad Khattak,muhammadskhattak@gmail.com,M,Scratch,15
+student,Eddie Moon,eddiemoon297@gmail.com,M,Scratch,15
+student,Kexin Lin,klin@hgs.ns.ca,S,Kotlin,16
+student,Brian Quach,briann.quach@mail.utoronto.ca,S,Kotlin,16
+student,Jason zhao,jasonzhao323@gmail.com,L,Kotlin,16
+student,David Choi,sanggon.choi.dc@gmail.com,XL,Kotlin,16
+student,Anirudh Hari Baskar,anirudhharibaskar@gmail.com,M,Kotlin,16
+student,Katrina Ronquillo,k.ronquillo99@gmail.com,S,Kotlin,16
+student,Bhavya Miten Shah,bhavyas@adityabirlaworldacademy.com,L,Kotlin,16
+student,Simran Singh ,simranp.singh@mail.utoronto.ca,S,Kotlin,16
+student,Bill Li,billbillbill.li@mail.utoronto.ca,S,Kotlin,16
+student,Ren Zhang,rzhang0701@gmail.com,S,Kotlin,16
+student,Jason Park,jasonpark126@hotmail.com,M,Bash,17
+student,Rochelle Solomon,rochelle.boychuk@gmail.com,M,Bash,17
+student,Joyce Sun,joyce-sun@outlook.com,M,Bash,17
+student,Weiran Gu,weiran.gu@mail.utoronto.ca,S,Bash,17
+student,Mozammil Khan,saminkhann1@gmail.com,S,Bash,17
+student,Shahmir Usman,shahmirusman1999@gmail.com,S,Bash,17
+student,Samantha Fassnacht,samantha.fassnacht@gmail.com,S,Bash,17
+student,Lance Oribello,lanceoribello@gmail.com,M,Bash,17
+student,Ahamad Ullah,ahamad.ullahh@gmail.com,S,Bash,17
+student,Dhruvasu Bhatia,dhruvasu1@gmail.com,M,Bash,17
+student,Cam Martin,cameron.d.martin@gmail.com,M,Verilong,18
+student,Alex Waddell,alex.waddell@mail.utoronto.ca,M,Verilong,18
+student,Jonathan Oxman,oxmanjonathan@gmail.com,L,Verilong,18
+student,Viresh Umbre,viresh.rajiv.umbre@gmail.com,M,Verilong,18
+student,Qingyuan Qie,qieqyuan@163.com,XL,Verilong,18
+student,Ramil Nassyrov,ramilnassyrov8@gmail.com,M,Verilong,18
+student,Marvi Patel,marvi.patel@gmail.com,M,Verilong,18
+student,Chen Jiaxuan,1084856427@qq.com,L,Verilong,18
+student,Rishi Vijayvargiya,rishivv580@gmail.com,M,Verilong,18
+student,Tamsen Yau,tamsenyau@hotmail.com,M,Verilong,18
+student,Kavan Liang,kavanliang@gmail.com,M,Erlang,19
+student,Sid Gupta,sid1999@live.ca,M,Erlang,19
+student,Saim Ibrahim,saim.ibrahim1999@gmail.com,XL,Erlang,19
+student,Yuqi Bi,yuki990301@gmail.com,M,Erlang,19
+student,Hao Yu,hpeiyu.yu@mail.utoronto.ca,M,Erlang,19
+student,ChanYoung Cho,dk90801@gmail.com,L,Erlang,19
+student,Stacey Thomas,tstacey297@gmail.com,S,Erlang,19
+student,Rabia'h Malik,rmalik999@hotmail.com,S,Erlang,19
+student,Wenhao Zhang,zhangwh41@gmail.com,M,Erlang,19
+student,Justin Kim,roboijk@gmail.com,M,Erlang,19
+student,Jake Matlin,jake.matlin@mail.utoronto.ca,M,Dart,20
+student,Jianong LI,lijianong97@163.com,M,Dart,20
+student,Sharma,shourya134@gmail.com,XL,Dart,20
+student,Tian Ze Xu,utianzexu@gmail.com,M,Dart,20
+student,( Kevin ) Yi Han Zhang,kevinyzzzz101@gmail.com,L,Dart,20
+student,Abdullah Khokhar,abdullahk786@hotmail.com,M,Dart,20
+student,Utkarsh Hora,utkarshhora.99@gmail.com,S,Dart,20
+student,Yosef Leibman,yoyosef@gmail.com,M,Dart,20
+student,Abbas Sabir Ujjainwala,abbassabirujjainwala@gmail.com,S,Dart,20
+student,Qi Zou,q1193737161@yahoo.ca,L,Dart,20
+student,Robin Jefferies,robinjefferies@outlook.com,S,Scala,21
+student,Mian Wang,bothesnail2009@gmail.com,M,Scala,21
+student,Rohit Bansal,rohitbansal0602@yahoo.com,L,Scala,21
+student,Yilun Li,bobliyilun@gmail.com,M,Scala,21
+student,Samuel,jeremychilderhose@gmail.com,M,Scala,21
+student,Ishaan Ghosh,ishaani99@gmail.com,M,Scala,21
+student,David Canagasabey,david.canagasabey@gmail.com,S,Scala,21
+student,Michael Lee,mich.lee1999@gmail.com,M,Scala,21
+student,Michelle Luo,michelle_luo@live.com,M,Scala,21
+student,Ryan Chang,rzinshanghai@gmail.com,M,Scala,21
+student,Meirbek Zeinulla,meirbekzt@yahoo.com,M,R,22
+student,Marcus Zheng,zarcusmheng@gmail.com,L,R,22
+student,Jiaying He,hejiaying2016@gmail.com,M,R,22
+student,Yulin Wang,wangyulin19971017@126.com,M,R,22
+student,Tejbeer Singh Bhullar,tejbeerbhullar0001@gmail.com,L,R,22
+student,Hansi Xu,hxacs7755@gmail.com,M,R,22
+student,Haresh Nasit,harshnasit123@gmail.com,M,R,22
+student,immanuel abdi,immanuelazn@gmail.com,M,R,22
+student,Christopher Jung,jsjchris@gmail.com,M,R,22
+student,Kameron sturgess,kameronsturgess@gmail.com,S,R,22
+student,Shahzil Lakhani,s.lakhani@hotmail.ca,M,Groovy,23
+student,Howard Chen,elongateddanishtoaster@gmail.com,L,Groovy,23
+student,Ishan Sharma,ishmayoite440@gmail.com,S,Groovy,23
+student,Chinmaya Nathany,chinmaya.nathany@gmail.com,M,Groovy,23
+student,Jevinjyot Sidhu,jevin.sidhu@gmail.com,S,Groovy,23
+student,Mahaksh Malhotra,malhotramahaksh99@gmail.com,M,Groovy,23
+student,Ziyad Edher,ziyad.edher@gmail.com,M,Groovy,23
+student,Shivam Garg,shivam99garg@yahoo.com,L,Groovy,23
+student,Jingfei Tan,fayefayetan@hotmail.com,M,Groovy,23
+student,Maryam Hassan,maryamh1399@gmail.com,L,Groovy,23
+student,Pulakesh Lohiya,pul.lohiya@gmail.com,M,F#,24
+student,Uzair Chudhary,uzairchudhary@gmail.com,L,F#,24
+student,Andrew Heyman,abheyman23@sbcglobal.net,M,F#,24
+student,I-Yu (Ian) Chen,ian302502@gmail.com,M,F#,24
+student,Anindya Auveek,anindya.auveek@gmail.com,M,F#,24
+student,Gozie Nwaka,gozie.nwaka@learning.ecolint.ch,M,F#,24
+student,Adam Comer,adambcomer@gmail.com,M,F#,24
+student,Lizhen Ying,yinglizhen@gmail.com,S,F#,24
+student,Inness Amollo,ineslianne@gmail.com,M,F#,24
+student,Alexander Daigle,aldaigle99@gmail.com,M,F#,24
+student,Victor Pan,victorpan98@gmail.com,M,Haskell,25
+student,Sultan Sidhu,sultansinghsidhu@gmail.com,L,Haskell,25
+student,YUNYI HE,heyunyi99@hotmail.com,S,Haskell,25
+student,Injong Won,weonjo43@gmail.com,M,Haskell,25
+student,Colin Tutchener,crtutchener1999@gmail.com,L,Haskell,25
+student,Rayana Azar,azarrayana@gmail.com,S,Haskell,25
+student,Sunyun Lee,sunyun528@gmail.com,S,Haskell,25
+student,Yijia Shen,839182485syj@gmail.com,M,Haskell,25
+student,Dylan Baptist,dylanbaps@gmail.com,M,Haskell,25
+student,Kailong Huang,kailong9@gmail.com,M,Haskell,25
+student,Emma Hasaralejko ,emma.hasaralejko@gmail.com,M,Rust,26
+student,Jessica Swies,jessicaswies@hotmail.com,M,Rust,26
+student,Wu Junxuan,835918679@qq.com,XL,Rust,26
+student,Shengye Niu,niutony27@gmail.com,XL,Rust,26
+student,Linus Shaw,linusshaw99@gmail.com,L,Rust,26
+student,Henry Gao,henry.wenhan.gao@gmail.com,M,Rust,26
+student,Robert Fang,fangrobert1999@gmail.com,M,Rust,26
+student,Bhupa Palalikit,mickeybhupa@gmail.com,M,Rust,26
+student,Sabrina Yu,sabrinayu7@hotmail.com,M,Rust,26
+student,Tameem Hassan,tameemhassan1@gmail.com,S,Rust,26
+student,Zhengyu Cai,792829031@qq.com,M,Hack,27
+student,Tania Pereira,taniapereira089@gmail.com,S,Hack,27
+student,Timothy Lee,timothyhw@gmail.com,M,Hack,27
+student,Arian Safaei,arian.safaei@mail.utoronto.ca,M,Hack,27
+student,Tsung-en Huang,tsungenhuang@gmail.com,M,Hack,27
+student,Akarsh Sharma,akarsh311298@gmail.com,M,Hack,27
+student,Sarthak Saxena,ssarthak.1999@gmail.com,S,Hack,27
+student,Shardul Bansal,bansa11750@gmail.com,M,Hack,27
+student,Philip Danso,loganwhytte@gmail.com,M,Hack,27
+student,Yue Qiu Zhong,yueqiu24@outlook.com,XL,Hack,27
+student,Eric Lindau,eric.lindau1@gmail.com,M,Arduino,28
+student,Jenkin,degeajenkin1743@gmail.com,S,Arduino,28
+student,Zewen Shen,attackshen@gmail.com,M,Arduino,28
+student,Adam Zartin,zartina@ismanila.org,M,Arduino,28
+student,Nathan Jayawardene,nathan.jayawardene@gmail.com,L,Arduino,28
+student,Zach Folan,zfolan@yahoo.com,L,Arduino,28
+student,Xinyi Ji,xinyiji98@aliyun.com,M,Arduino,28
+student,Jason He,jasonhaha25@126.com,M,Arduino,28
+student,William Chen,williamsjchen@163.com,S,Arduino,28
+student,SIQI  CHEN,cherry.chenbca@yahoo.com,M,Arduino,28
+student,Xu Wang,jasonwang20150128@gmail.com,M,Racket,29
+student,Devin Castaban,snipingspiker3@gmail.com,L,Racket,29
+student,Chris Ng,chrng1@live.ca,S,Racket,29
+student,Ayush Gupta,ayushgupta3@hotmail.com,S,Racket,29
+student,Yagiz Alkilic,yagiz.alkilic1@gmail.com,M,Racket,29
+student,ChenghaoWang,chenghaowang03@gmail.com,L,Racket,29
+student,Vadym Martsynovskyy,vadym@shaw.ca,M,Racket,29
+student,Marvin Mariano,marvin@mariano.xyz,L,Racket,29
+student,Matthew Verreault,matthewverreault@yahoo.com,L,Racket,29
+student,Huiying(Mindy) Xu,mindyxu.8181@gmail.com,M,Racket,29
+student,Tianquan Di,dtq99827@gmail.com,M,CoffeeScript,30
+student,Lucas Fenaux,suplucas91@hotmail.fr,M,CoffeeScript,30
+student,Ben Weisz,bencew99@gmail.com,M,CoffeeScript,30
+student,Oleksandr Gress,alex.gress@mail.utoronto.ca,S,CoffeeScript,30
+student,Yuzhou Yao,yuzhou.yao@mail.utoronto.ca,M,CoffeeScript,30
+student,SANGRYUL YUN ,creepyjacob5827@gmail.com,XL,CoffeeScript,30
+student,Rui Yue Sun,sherrysun1999@outlook.com,S,CoffeeScript,30
+student,Yuan Xu,xu1941204103@gmail.com,S,CoffeeScript,30
+student,Wen Wang,wangwen8070@gmail.com,S,CoffeeScript,30
+student,Zohair Ghoury,zohairghoury@outlook.com,L,CoffeeScript,30
+student,RJ Viray,rjv5599@gmail.com,S,Lua,31
+student,Xinyi Liu,helenliu666666@gmail.com,S,Lua,31
+student,Nancy Zhao,nancy.zhao@outlook.com,M,Lua,31
+student,Carlson Lau,carl.lau999@gmail.com,M,Lua,31
+student,George Lu,xia0diao@hotmail.com,M,Lua,31
+student,Quin,ftquin@gmail.com,L,Lua,31
+student,Magomed Evloev,magomed5435@gmail.com,M,Lua,31
+student,Florin Salasan,florinsalasan@gmail.com,XL,Lua,31
+student,Anna,annateresa.lai@mail.utoronto.ca,M,Lua,31
+student,Salman Shahzad Mohamad,salmanm725@gmail.com,L,Lua,31
+student,Raaid Mahboob,raaidsm@gmail.com,M,Fortran,32
+student,dhanraj,dhanraj@live.ca,S,Fortran,32
+student,Xinyue Ren,xinyue.ren@mail.utoronto.ca,M,Fortran,32
+student,Jason Li,jasonli1000@hotmail.com,M,Fortran,32
+student,Sepehr ,sepehreghbal@gmail.com,M,Fortran,32
+student,Thomas Liu,tommyliu9@gmail.com,S,Fortran,32
+student,Jay Wang,jj276624@gmail.com,M,Fortran,32
+student,Andy Zhu,andyzhu00112@hotmail.com,M,Fortran,32
+student,Alyssa Schleifer,alyssa.schleifer@mail.utoronto.ca,S,Fortran,32
+student,Arjun Sahni,arjun.sahni@mail.utoronto.ca,S,Fortran,32
+student,Jimmy Tan,jtan5372@gmail.com,S,TypeScript,33
+student,Fiona McCauley,fiona.mccauley@mail.utoronto.ca,S,TypeScript,33
+student,Viktor Zhuang,syzhuang723@gmail.com,M,TypeScript,33
+student,Jiesi Liu,jiesi.liu@mail.utoronto.ca,S,TypeScript,33
+student,Nash Burt,nashburt@gmail.com,L,TypeScript,33
+student,George Huang,huangjianlin9897@gmail.com,M,TypeScript,33
+student,Ashutosh,banjaraashutosh@gmail.com,M,TypeScript,33
+student,Kashaf Salaheen,ksalaheen@gmail.com,M,TypeScript,33
+student,Disha Nayak,dishanayak10@gmail.com,S,TypeScript,33
+student,Zhuozi Zou,1092318026@qq.com,S,TypeScript,33
+student,Victor Trinh,trinhvictor12@gmail.com,L,Julia,34
+student,Micheal Mao,furrystreamrock.7@gmail.com,M,Julia,34
+student,Christina,christinawang521@gmail.com,L,Julia,34
+student,Huakun Shen,shenhuakun@outlook.com,M,Julia,34
+student,Ting Fu Hsu,tingfu.hsu@gmail.com,M,Julia,34
+student,leon ,leonfeng0601@gmail.com,L,Julia,34
+student,Wei Cong,lim142857@gmail.com,L,Julia,34
+student,Angela Zhu,angelahjzhu@gmail.com,M,Julia,34
+student,Victor Huang,vict.huang@mail.utoronto.ca,L,Julia,34
+student,Chin Hou Ren,hou_96@hotmail.com,L,Julia,34
+student,James Currier,jcurrier@live.ca,M,Lisp,35
+student,yinlingluo,yinling.luo@mail.utoronto.ca,S,Lisp,35
+student,Good Suravudhikul,good.suravudhikul@mail.utoronto.ca,M,Lisp,35
+student,Jimmy Chen,jyc.chen@mail.utoronto.ca,M,Lisp,35
+student,Simon Entote,simon.entote@mail.utoronto.ca,S,Lisp,35
+student,Ruth Crasto,ruth.crasto@mail.utoronto.ca,S,Lisp,35
+student,Frank Hua,frankhua21@gmail.com,L,Lisp,35
+student,Chris On,chrisonnow@gmail.com,L,Lisp,35
+student,Imad Abdulkadir,imad.abdulkadir@mail.utoronto.ca,M,Lisp,35
+student,Zhengtong Tan,1336334055@qq.com,S,Lisp,35
+leader,sam motamed,sam.motamed@mail.utoronto.ca,M,,
+leader,Awsaf Sakif,awsaf.sakif@mail.utoronto.ca,M,,
+leader,Nagee Elghassein,nagee.elghassein@mail.utoronto.ca,XL,,
+leader,Chris Zhu,chrise.zhu@mail.utoronto.ca,M,,
+leader,Joseph Hung,Joseph.hung@mail.utoronto.ca,L,,
+leader,Helen Su,helenkysu@gmail.com,S,,
+leader,Allen Hsiao,weiping.hsiao@mail.utoronto.ca,M,,
+leader,Sean Geng,sean.geng@mail.utoronto.ca,L,,
+leader,Amr Sharaf,amr.sharaf@mail.utoronto.ca,M,,
+leader,Sonata Abdullh,sonata.abdullh@gmail.com,M,,
+leader,Andrew So,andrewt.so@mail.utoronto.ca,,,
+leader,Elliot Ford,elliot.ford@mail.utoronto.ca,,,
+leader,Courtney Siu,courtney.siu@mail.utoronto.ca,S,,
+leader,Moeed Saeed,mess_moeed@hotmail.com,M,,
+leader,Matthew Wong,matthew.jay.wong@gmail.com,S,,
+leader,Kashav Madan,kashav.madan@mail.utoronto.ca,,,
+leader,Omar Quazi,omarquaz@gmail.com,S,,
+leader,Alaa Ahmed,alaaa.ahmed@mail.utoronto.ca,M,,
+leader,Ian Shi,ian.shi@mail.utoronto.ca,L,,
+leader,Duc Vu ,Duc.vu@mail.utoronto.ca,M,,
+leader,Lisa Guo ,lisajguo@gmail.com,S,,
+leader,David Shan,david.shan@mail.utoronto.ca,L,,
+leader,Taamannae Taabassum,Taamannae@gmail.com,M,,
+leader,Sam Motamed,sam.motamed@mail.utoronto.ca,M,,
+leader,Cait Harrigan,cait.harrigan@mail.utoronto.ca,S,,
+leader,Abhishek Patel,abhiashesh@gmail.com,M,,
+leader,Asic Chen,asic.chen@mail.utoronto.ca,M,,
+leader,Sara Golestaneh,sara.golestaneh@mail.utoronto.ca,S,,
+leader,George Gianacopoulos,george.gianacopoulos@mail.utoronto.ca,L,,
+leader,Musa Talluzi,musa.talluzi@gmail.com,M,,
+leader,Hannah Li,hannah.li@mail.utoronto.ca,M,,
+leader,Edy Asaad,edy.asaad@mail.utoronto.ca,M,,
+leader,Adnan Shahid,adnan.shahid@mail.utoronto.ca,S,,
+leader,Ihsan Etwaroo,ihsan.etwaroo@mail.utoronto.ca,M,,
+leader,Racheal Soosaipillai,racheal.soosaipillai@mail.utoronto.ca,S,,
+leader,Charlie Zhang,charliezcy.zhang@mail.utoronto.ca,M,,
+leader,Chris Wan,ccc.wan@mail.utoronto.ca,M,,
+leader,Sara Tang,sara.tang@mail.utoronto.ca,S,,
+leader,Javed Nissar,javednissar@gmail.com,S,,
+leader,Farhan Samir,f.samir@mail.utoronto.ca,M,,
+leader,Stephen Fisher,stephen.t.n.fisher@mail.utoronto.ca,L,,
+leader,Tinny Nguyen,tinny.nguyen@mail.utoronto.ca,L,,
+leader,Michael Taylor-James,michael.taylor.james@mail.utoronto.ca,L,,
+leader,Anam Alvi,anam.alvi01@gmail.com,M,,
+leader,Henrique Matulis,henrique.matulis@mail.utoronto.ca,M,,
+leader,Jing Yi Xie,xie.j97@gmail.com,S,,
+leader,Roya Shams,roya.shams.zadeh.amiri@mail.utoronto.ca,S,,
+leader,Kanwarjaspreet Jaura,jesse.jaura@mail.utoronto.ca,L,,
+leader,Shannon Lee,shannonk.lee@mail.utoronto.ca,S,,
+leader,Marco Ly,jan.ly@mail.utoronto.ca,S,,
+leader,Prashant Patel,prasv.patel@mail.utoronto.ca,M,,
+leader,Tash-had Saqif,t.saqif@mail.utoronto.ca,M,,
+leader,Lina Refai,lina.refai@mail.utoronto.ca,M,,
+leader,Sam Motamed,sam.motamed@mail.utoronto.ca,M,,
+leader,Yeghia Arthur Boghossian,yeghia12@gmail.com,L,,
+leader,Yushan Lin,yushan.lin@mail.utoronto.ca,M,,
+leader,Mark,peiqi1122@gmail.com,S,,
+leader,Will Kwok,wil.kwok@utoronto.ca,M,,
+leader,Angela Ruiz,ruizange91@gmail.com,M,,
+leader,Emily Ayala,emily.ayala@mail.utoronto.ca,S,,
+leader,Manik Saraf,maniksaraf@gmail.com,xxl,,
+leader,Jesse Cordeiro,jesse.cordeiro@mail.utoronto.ca,S,,
+leader,Shadman Aziz,97sdmn@gmail.com,S,,
+leader,Bilal Chaudhry,b.chaudhry@mail.utoronto.ca,M,,
+leader,Ismael Ghanim,i_ghanim@hotmail.com,M,,
+leader,Kartik Saravana Arvind,kartik.saravanaarvind@mail.utoronto.ca,L,,
+leader,Jason Mai,jason.mai@mail.utoronto.ca,M,,
+leader,Jeff Lin,jeff.lin.97@gmail.com,S,,
+leader,Erwin-Jeffrey Komguem,ejeff.ko@gmail.com,L,,
+leader,Ousmane Amadou,ousmane.amadou@mail.utorontoca,M,,
+leader,Yuvrender Singh Gill,yuvrender.gill@mail.utoronto.ca,M,,
+leader,Leon Xu,leon.xu@mail.utoronto.ca,S,,
+leader,Serena Wen,wen.x.serena@gmail.com,S,,
+leader,Lucy Lu,lucysylu@gmail.com,S,,
+leader,Andersen Chan,andy.tio.chan@gmail.com,S,,
+leader,Tanveer Gill ,tan.gill@mail.utoronto.ca,M,,

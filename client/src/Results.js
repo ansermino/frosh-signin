@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Student from './Student'
 import RaisedButton from 'material-ui/RaisedButton'
+import Leader from './Leader'
 
 const successStyle = {
   color: "#42f456"
@@ -47,14 +48,27 @@ class Results extends Component{
       )
     }
     else{
-      return (
-        <div>
-          <h1 style={successStyle}> Success!</h1>
-          <Student name={this.props.student["name"]} shirtSize={this.props.student["shirtSize"]} teamName={this.props.student["teamName"]}/>
-          <h2 style={{color: "red"}}> Keep this page open for reference!</h2>
-          <h2> Grab your shirt and name tag and head to your teams station!</h2>
-        </div>
-      )
+      if(this.props.student.type == 'student'){
+        return (
+          <div>
+            <h1 style={successStyle}> Success!</h1>
+            <Student name={this.props.student["name"]} shirtSize={this.props.student["shirtSize"]} teamName={this.props.student["teamName"]}/>
+            <h2 style={{color: "red"}}> Keep this page open for reference!</h2>
+            <h2> Grab your shirt and name tag and head to your teams station!</h2>
+          </div>
+        )
+      }
+      else{
+        return (
+          <div>
+            <h1 style={successStyle}> Success!</h1>
+            <Leader name={this.props.student["name"]} shirtSize={this.props.student["shirtSize"]} teamName={this.props.student["teamName"]}/>
+            <h2 style={{color: "red"}}> Keep this page open for reference!</h2>
+            <h2> Grab your shirt and name tag and then head to BA1210!</h2>
+          </div>
+        )
+      }
+
     }
   }
 }
