@@ -14,7 +14,7 @@ const textBoxMobileStyle = {
 class Form extends Component {
   constructor(props) {
     super(props);
-    this.state = {value: ''};
+    this.state = {value: '', buttonDisabled: false};
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -24,6 +24,8 @@ class Form extends Component {
   }
   handleSubmit(event) {
       event.preventDefault();
+      if(this.state.value === '') return;
+      this.setState({buttonDisabled: true})
       getStudentData(this.state.value).then(
           (data) => this.props.stateCallback('results', JSON.parse(data.response), data.status),
           (err) => console.error(new Error(err))
@@ -47,11 +49,10 @@ class Form extends Component {
             <h2>Please enter the email you used when you signed up!</h2>
             <TextField style={textBoxMobileStyle} floatingLabelText="Email used when you signed up" value={this.state.value} onChange={this.handleChange}/>
             <br></br>
-            <RaisedButton className="bottomButton" label="Submit" onClick={this.handleSubmit}/>
+            <RaisedButton className="bottomButton" label="Submit" onClick={this.handleSubmit} disabled={this.state.buttonDisabled}/>
           </form>
         </MediaQuery>
       </div>
-
     );
   }
 }
