@@ -44,23 +44,22 @@ class Leader extends Component{
   }
   render() {
       return(
-          <div style={rootDivStyle}>
-            <MediaQuery minDeviceWidth={900}>
-              <div id="shirtSize" style={shirtSizeDivDesktopStyle}>
-                  <h2>Shirt Size:</h2>
-                  <h3 style={infoStyle}>{this.props.shirtSize.toUpperCase()}</h3>
-              </div>
-              <div id="studentInfo" style={studentInfoDivStyle}>
-                  <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}!</h2>
-              </div>
-            </MediaQuery>
-            <MediaQuery maxDeviceWidth={899}>
-              <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}!</h2>
-              <h2>Shirt Size:</h2>
-              <h3 style={infoStyle}>{this.props.shirtSize.toUpperCase()}</h3>
-            </MediaQuery>
-
-          </div>
+        <div style={rootDivStyle}>
+          <MediaQuery minDeviceWidth={900}>
+            <div id="shirtSize" style={shirtSizeDivDesktopStyle}>
+                <h2>Shirt Size:</h2>
+                <h3 style={infoStyle}>{this.props.shirtSize.toUpperCase()}</h3>
+            </div>
+            <div id="studentInfo" style={studentInfoDivStyle}>
+                <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}!</h2>
+            </div>
+          </MediaQuery>
+          <MediaQuery maxDeviceWidth={899}>
+            <h2>Welcome {this.props.name.split(" ")[0].toUpperCase()}!</h2>
+            <h2>Shirt Size:</h2>
+            <h3 style={infoStyle}>{this.props.shirtSize.toUpperCase()}</h3>
+          </MediaQuery>
+        </div>
       )
   }
 }
