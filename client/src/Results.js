@@ -51,7 +51,7 @@ class Results extends Component{
         <div>
           <h1 style={successStyle}> Success!</h1>
           <Student name={this.props.student["name"]} shirtSize={this.props.student["shirtSize"]} teamName={this.props.student["teamName"]}/>
-          <h2> Keep this page open for reference!</h2>
+          <h2 style={color: "red"}> Keep this page open for reference!</h2>
           <h2> Grab your shirt and name tag and head to your teams station!</h2>
         </div>
       )
