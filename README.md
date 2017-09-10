@@ -6,3 +6,4 @@
 - [ ] Create admin front end that allows syncronized access to user data
 - [ ] Full mobile responsiveness
 - [ ] Google sheet integration 
+- [ ] Fix production issues with http requests while using https
