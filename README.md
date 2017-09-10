@@ -7,3 +7,5 @@
 - [ ] Full mobile responsiveness
 - [ ] Google sheet integration 
 - [ ] Fix production issues with http requests while using https
+
+### Built with [React](https://www.google.com) and [Material-UI](http://www.material-ui.com/)
