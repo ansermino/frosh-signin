@@ -1,4 +1,6 @@
 import React from 'react';
+import SERVER_URL from './Constants.jsx'
+
 import { Form as UIForm, Input, Button, Message } from 'semantic-ui-react'
 
 class Form extends React.Component {
@@ -40,6 +42,16 @@ class Form extends React.Component {
 const validateEmail = (email) => {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
+}
+
+const getStudent = (email) => {
+  const url = 'http://' + SERVER_URL + '/search/' + email
+  console.log('Fetching: ' + url)
+  const request = new XMLHttpRequest()
+  request.open('GET', url)
+  request.onload = () => resolves(request)
+  request.onerror = (err) => rejects(err)
+  request.send()
 }
 
 export default Form;
