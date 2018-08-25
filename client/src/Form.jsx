@@ -1,7 +1,7 @@
 import React from 'react';
-import { Form, Input, Button, Message } from 'semantic-ui-react'
+import { Form as UIForm, Input, Button, Message } from 'semantic-ui-react'
 
-class CheckIn extends React.Component {
+class Form extends React.Component {
   constructor () {
     super()
     this.state = {value: '', buttonDisabled: false, validEmail: true}
@@ -23,15 +23,15 @@ class CheckIn extends React.Component {
     return (
       <section id="checkin">
         <h2>Welcome to CS FROSH 2018!</h2>
-        <Form error>
-          <Form.Field>
+        <UIForm error>
+          <UIForm.Field>
             <span>Please enter the email you used to sign up</span>
             <Input icon='at' iconPosition='left' placeholder='Email'
               onChange={this.handleTextChange}/>
             <Message hidden={this.state.validEmail} error header='Invalid Email'/>
-          </Form.Field>
+          </UIForm.Field>
           <Button onClick={this.handleSubmit} type='submit'>Submit</Button>
-        </Form>
+        </UIForm>
       </section>
     )
   }
@@ -42,4 +42,4 @@ const validateEmail = (email) => {
     return re.test(String(email).toLowerCase());
 }
 
-export default CheckIn;
+export default Form;
