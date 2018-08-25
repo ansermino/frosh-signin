@@ -1,34 +1,9 @@
-var mongoose = require('mongoose');
+var db = require('./db.js');
 var express = require('express');
 var path = require('path');
-
-const MONGODB = 'mongodb://frosh:frosh@ds127564.mlab.com:27564/frosh';
-
-// Logging methods
-mongoose.connection.on('connected', function() {
-    console.log('Mongoose connected to ' + MONGODB);
-});
-
-mongoose.connection.on('error', function(error) {
-    console.log('Mongoose connection error: ' + error);
-});
-
-mongoose.connection.on('disconnected', function() {
-    console.log('Mongoose disconnected.');
-});
-const studentSchema = new mongoose.Schema({
-    type: {type: String},
-    name: {type: String},
-    email: {type: String},
-    groupName: {type: String},
-    groupNumber: {type: String},
-    shirtSize: {type: String, default: "TBD"},
-    checkedIn: {type: Boolean, default: false}
-})
-
-var db = mongoose.connect(MONGODB);
-var Student = db.model('Student', studentSchema);
 var app = express();
+
+db.connect()
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -45,12 +20,13 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.get('/search/:email', (req, res) => {
     console.log("Looking up email: " + req.email);
-    Student.findOne({email: req.email.toLowerCase()}, (err, student) => {
+    db.Student.findOne({email: req.email.toLowerCase()}, (err, student) => {
         if(err){
             console.log(err);
             res.status(404).send({name: null});
         }
         else if(!student){
+            console.log('No results found.')
             res.status(404).send({name: null});
         }
         else{

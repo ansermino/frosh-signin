@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import RaisedButton from 'material-ui/RaisedButton'
 import TextField from 'material-ui/TextField'
 import MediaQuery from 'react-responsive'
+import URL from './Constants.jsx'
 
 const textBoxDesktopStyle = {
     width: "50%"
@@ -28,7 +29,7 @@ class Form extends Component {
       this.setState({buttonDisabled: true})
       getStudentData(this.state.value).then(
           (data) => this.props.stateCallback('results', JSON.parse(data.response), data.status),
-          (err) => console.error(new Error(err))
+          (err) => console.log(new Error(err))
       );
   }
   render() {
@@ -58,7 +59,9 @@ class Form extends Component {
 }
 
 const getStudentData = (query) => new Promise((resolves, rejects) => {
-    const url = 'https://csfrosh2k17.herokuapp.com/search/' + query
+    const url = 'http://' + URL + '/search/' + query
+    console.log('fetching: ' + url)
+
     const request = new XMLHttpRequest()
     request.open('GET', url)
     request.onload = () => resolves(request)
