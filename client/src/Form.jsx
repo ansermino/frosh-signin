@@ -1,6 +1,5 @@
 import React from 'react';
 import SERVER_URL from './Constants.jsx'
-
 import { Form as UIForm, Input, Button, Message } from 'semantic-ui-react'
 
 class Form extends React.Component {
@@ -15,24 +14,33 @@ class Form extends React.Component {
     this.setState({value: event.target.value})
   }
   handleSubmit (event) {
+    event.preventDefault()
+
     if (validateEmail(this.state.value)) {
-      //request from server
+      this.setState({buttonDisabled: true})
+      getStudent(this.state.value).then(
+          (data) => this.props.stateCallback('results', JSON.parse(data.response), data.status),
+          (err) => {
+            console.log(new Error(err))
+            this.setState({buttonDisabled: false})
+          }
+      );
     } else {
       this.setState({validEmail: false})
     }
   }
   render () {
     return (
-      <section id="checkin">
-        <h2>Welcome to CS FROSH 2018!</h2>
+      <section id="form">
+        <h2>Hello, Welcome to CS FROSH 2018!</h2>
         <UIForm error>
           <UIForm.Field>
-            <span>Please enter the email you used to sign up</span>
+            <span class="description">Please enter the email you used to sign up</span>
             <Input icon='at' iconPosition='left' placeholder='Email'
               onChange={this.handleTextChange}/>
             <Message hidden={this.state.validEmail} error header='Invalid Email'/>
           </UIForm.Field>
-          <Button onClick={this.handleSubmit} type='submit'>Submit</Button>
+          <Button disabled={this.state.buttonDisabled} onClick={this.handleSubmit} type='submit'>Submit</Button>
         </UIForm>
       </section>
     )
@@ -44,7 +52,7 @@ const validateEmail = (email) => {
     return re.test(String(email).toLowerCase());
 }
 
-const getStudent = (email) => {
+const getStudent = (email) => new Promise((resolves, rejects) => {
   const url = 'http://' + SERVER_URL + '/search/' + email
   console.log('Fetching: ' + url)
   const request = new XMLHttpRequest()
@@ -52,6 +60,6 @@ const getStudent = (email) => {
   request.onload = () => resolves(request)
   request.onerror = (err) => rejects(err)
   request.send()
-}
+})
 
 export default Form;

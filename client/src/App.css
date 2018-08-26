@@ -1,28 +1,66 @@
-.App {
+body {
+  background: #e5e5e5;
+  font-family:  'Muli', sans-serif;
+  font-size: 16px;
+  background: #ECE9E6;
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+  background: linear-gradient(to right, #FFFFFF, #ece9e6);
+}
+header {
+  color: #fff;
+  background: #002a5c;
+  text-align: left;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+}
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+main {
   text-align: center;
+  height: 100vh;
+}
+section {
+  width: 50%;
+  padding: 2%;
+  position: relative;
+  top: 40%;
+  transform: translateY(-40%);
+  display: inline-block;
+  background: #002a5c;
+  color: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+#logo{
+  width: 6rem;
+  vertical-align: middle;
+  margin: 0 1rem;
+}
+#title {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 1rem;
+}
+.description {
+  text-align: left;
+  display: block;
+  padding: 2% 0;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media only screen and (max-width: 600px) {
+  header {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  section {
+    width: 90%;
+    height: 90vh;
+    padding: 5%;
+  }
+  .ui.button {
+    width: 100%;
+  }
 }
