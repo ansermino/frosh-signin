@@ -15,7 +15,6 @@ class Form extends React.Component {
   }
   handleSubmit (event) {
     event.preventDefault()
-
     if (validateEmail(this.state.value)) {
       this.setState({buttonDisabled: true})
       getStudent(this.state.value).then(
@@ -25,7 +24,8 @@ class Form extends React.Component {
             this.setState({buttonDisabled: false})
           }
       );
-    } else {
+    }
+    else {
       this.setState({validEmail: false})
     }
   }

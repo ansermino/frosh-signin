@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import logo from './logo.PNG'
 import './App.css'
-import Form from './Form.jsx'
+//import Form from './Form.jsx'
+import Results from './Results.jsx'
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
           <h1 id="title">University of Toronto CS FROSH</h1>
         </header>
         <main>
-          <Form/>
+          <Results/>
         </main>
       </div>
     );

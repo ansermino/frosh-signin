@@ -3,8 +3,8 @@ body {
   font-family:  'Muli', sans-serif;
   font-size: 16px;
   background: #ECE9E6;
-  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
-  background: linear-gradient(to right, #FFFFFF, #ece9e6);
+  background: -webkit-linear-gradient(to right, #FFFFFF, #d8d9db);
+  background: linear-gradient(to right, #FFFFFF, #d8d9db);
 }
 header {
   color: #fff;
@@ -17,6 +17,7 @@ h1, h2 {
   font-size: 1.7rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  color: #fff !important;
 }
 main {
   text-align: center;
@@ -48,6 +49,14 @@ section {
   text-align: left;
   display: block;
   padding: 2% 0;
+  font-weight: bold;
+}
+
+.ui.green.header {
+    color: #76b95d !important;
+}
+.ui.icon.header .circular.icon {
+    font-size: 1.5em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -57,7 +66,7 @@ section {
   }
   section {
     width: 90%;
-    height: 90vh;
+    /*height: 90vh;*/
     padding: 5%;
   }
   .ui.button {
