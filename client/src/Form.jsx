@@ -19,10 +19,7 @@ class Form extends React.Component {
       this.setState({buttonDisabled: true})
       getStudent(this.state.value).then(
           (data) => this.props.stateCallback('results', JSON.parse(data.response), data.status),
-          (err) => {
-            console.log(new Error(err))
-            this.setState({buttonDisabled: false})
-          }
+          (err) => this.setState({buttonDisabled: false})
       );
     }
     else {
@@ -35,7 +32,7 @@ class Form extends React.Component {
         <h2>Hello, Welcome to CS FROSH 2018!</h2>
         <UIForm error>
           <UIForm.Field>
-            <span class="description">Please enter the email you used to sign up</span>
+            <span className="description">Please enter the email you used to sign up</span>
             <Input icon='at' iconPosition='left' placeholder='Email'
               onChange={this.handleTextChange}/>
             <Message hidden={this.state.validEmail} error header='Invalid Email'/>

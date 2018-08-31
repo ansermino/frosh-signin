@@ -1,7 +1,14 @@
 import React from 'react'
-import { Message, Icon, Header } from 'semantic-ui-react'
+import { Icon, Header, Button } from 'semantic-ui-react'
 
 class Warning extends React.Component {
+  constructor(props){
+    super(props)
+    this.handleReset = this.handleReset.bind(this)
+  }
+  handleReset(){
+    this.props.stateCallback('search', null);
+  }
   render () {
     return (
       <div>
@@ -10,6 +17,7 @@ class Warning extends React.Component {
           Oops.
         </Header>
         <p>Looks like you have already checked in. You are good to go!</p>
+        <Button onClick={this.handleReset}>Back</Button>
       </div>
     )
   }

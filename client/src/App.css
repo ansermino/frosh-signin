@@ -49,13 +49,13 @@ section {
   text-align: left;
   display: block;
   padding: 2% 0;
-  font-weight: bold;
 }
 
 .ui.green.header {
     color: #76b95d !important;
 }
-.ui.icon.header .circular.icon {
+.ui.icon.header .circular.icon,
+.ui.icon.message > .icon:not(.close) {
     font-size: 1.5em;
 }
 

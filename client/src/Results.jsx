@@ -1,5 +1,4 @@
 import React from 'react'
-import { Message, Icon, Header } from 'semantic-ui-react'
 import Student from './Student.jsx'
 import Error from './Error.jsx'
 import Warning from './Warning.jsx'
@@ -9,17 +8,18 @@ class Results extends React.Component {
     let component = null;
     switch(this.props.status) {
       case 404:
-        component = <Error />;
+        component = <Error stateCallback={this.props.stateCallback}/>;
         break;
       case 401:
-        component = <Warning />;
+        component = <Warning stateCallback={this.props.stateCallback}/>;
         break;
-      case 'student':
-        component = <Student />
+      case 200:
+        component = <Student name={this.props.student["name"]} teamName={this.props.student["groupName"]}/>;
+        break;
       default:
         component = <Student />;
+        break;
     }
-
     return (
       <section id="results">
         {component}

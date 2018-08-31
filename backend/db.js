@@ -1,6 +1,7 @@
 var mongoose = require('mongoose')
 
-const MONGODB = 'mongodb://frosh:password1@ds133252.mlab.com:33252/frosh';
+const MONGODB = 'mongodb://uoftcsfrosh:GOcyiegbounatU7@ds018258.mlab.com:18258/uoftcsfrosh';
+//const MONGODB = 'mongodb://frosh:password1@ds133252.mlab.com:33252/frosh';
 
 const connect = () => {
   mongoose.connect(MONGODB)
@@ -25,10 +26,9 @@ const studentSchema = new mongoose.Schema({
     email: {type: String},
     groupName: {type: String},
     groupNumber: {type: String},
-    shirtSize: {type: String, default: "TBD"},
     checkedIn: {type: Boolean, default: false}
 })
 
-var Student = mongoose.model('Student', studentSchema);
+var Student = mongoose.model('test', studentSchema, 'test');
 
 module.exports = { connect, Student }

@@ -17,9 +17,9 @@ app.param('email', (req, res, next, email) => {
 });
 
 app.use(express.static(path.join(__dirname, 'client/build')));
+//app.use(express.static(path.join(__dirname, 'client/public')));
 
 app.get('/search/:email', (req, res) => {
-    console.log("Looking up email: " + req.email);
     db.Student.findOne({email: req.email.toLowerCase()}, (err, student) => {
         if(err){
             console.log(err);
@@ -43,10 +43,11 @@ app.get('/search/:email', (req, res) => {
     })
     //res.setHeader('Content-Type', 'application/json');
     //res.send({name:"David Ansermino", shirtSize:"m", teamName: "Java"})
-    //res.status(404).send({name: null});
+    //res.status(401).send({name: null});
 })
 
 app.get('*', (req, res) => {
+  //res.sendFile(path.join(__dirname+'/../client/public/index.html'));
   res.sendFile(path.join(__dirname+'/../client/build/index.html'));
 });
 
